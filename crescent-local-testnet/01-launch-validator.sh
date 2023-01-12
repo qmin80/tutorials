@@ -23,9 +23,9 @@ git clone https://github.com/qmin80/tutorials.git
 
 # get an wallet address for Crescent and its mnemonic
 TDIR=$HOME/tutorials/crescent-local-testnet
-RELAYER_MNEMONIC=$(cat $TDIR/MNEMONIC_RELAYER)
-VALIDATOR_1_MNEMONIC=$(cat $TDIR/MNEMONIC_VALIDATOR_1)
-VALIDATOR_2_MNEMONIC=$(cat $TDIR/MNEMONIC_VALIDATOR_2)
+RELAYER_MNEMONIC=$(cat $TDIR/mnemonics/MNEMONIC_RELAYER)
+VALIDATOR_1_MNEMONIC=$(cat $TDIR/mnemonics/MNEMONIC_VALIDATOR_1)
+VALIDATOR_2_MNEMONIC=$(cat $TDIR/mnemonics/MNEMONIC_VALIDATOR_2)
 
 
 # Initialize chain config
