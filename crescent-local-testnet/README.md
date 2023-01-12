@@ -1,19 +1,26 @@
 # Overview
 
-## Part 1 : Local testnet, profiling, and remote debugging 
-1. Launch crescent network testnet on localhost 
-2. Create a validator which is a liquid staking validator
-3. Do liquid staking to get bcre
-4. Create a pair of bcre/cre
-5. Execute Marker Orders
-6. Execute Limit Orders
-7. 
+## 01-launch-validator.sh
+- Launch crescent network testnet on localhost 
+- Create a validator which is a liquid staking validator
 
-## Part 2 : New liquid validator
+## 02-liquidstaking-and-swap.sh
+- Do liquid staking to get bcre
+- Create a pair of bcre/cre
+- Limit Orders
+- Marker Orders
 
+## 03-profiling.sh
+-  Go profiling
 
-## Part 3 : create a pool
+## 04-remote-debug.sh
+- Remote debugging
 
+## 05-create-pool.sh
+- Create a pool
+
+## 06-new-lsv.sh
+- Add new whitelist validator 
 
 
 # Wallet Address - Crescent
