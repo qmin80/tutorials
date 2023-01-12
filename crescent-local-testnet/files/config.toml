@@ -1,0 +1,44 @@
+[rpc]
+address = "http://localhost:11157"
+
+[grpc]
+address = "localhost:11190"
+
+[lcd]
+address = "http://localhost:11117"
+
+[custom]
+mnemonics = ["need vanish business stereo beyond promote boat badge tilt frozen soul drive hero medal gown regular adapt mass auction traffic between speed neither exotic"]
+crescent_address = "cre1e2r48kgec2twyp5t3yc6lr6ad9mrzy9yx6wl0e"
+
+gas_limit = 2000000
+fee_denom = "ucre"
+fee_amount = 0
+memo = ""
+
+[ibcconfig]
+    [[ibcconfig.chains]]
+    chainid = "persian-cat"
+    grpc = "http://127.0.0.1:9090"
+    rpc = "http://127.0.0.1:26657"
+    dstaccount = "cosmos1sgccacfzp2jasfp77mc2jmsh8u4sfem22m9lp0"
+    tokendenom  = "usqua"
+    accounthd ="44'/118'/0'/0/0"
+    accountaddrprefix="cosmos"
+    [[ibcconfig.chains]]
+    chainid = "osmosis-testnet"
+    grpc = "http://127.0.0.1:9191"
+    rpc = "http://127.0.0.1:16657"
+    dstaccount = "osmo1lp3kkuasafcqn8ryp4k6tm393x0aasfpzqtsw2"
+    tokendenom  = "uosmo"
+    accounthd ="44'/118'/0'/0/0"
+    accountaddrprefix="osmo"
+    [[ibcconfig.chains]]
+    chainid = "terra-testnet"
+    grpc = "http://127.0.0.1:9393"
+    rpc = "http://127.0.0.1::36657"
+    dstaccount = "terra1rgpzze9ycl8etehkhmhppmhr7gnxxzpwc770ns"
+    tokendenom  = "uluna"
+    accounthd ="44'/330'/0'/0/0"
+    accountaddrprefix="terra"
+    
